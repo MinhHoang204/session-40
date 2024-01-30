@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #productList {
+          list-style: none;
+          padding: 0;
+        }
+        #productList li {
+          margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Danh sách sản phẩm</h1>
+    <form id="productForm">
+        <input type="text" id="productName" placeholder="Product Name">
+        <input type="text" id="productPrice" placeholder="Product Price">
+        <button type="submit" id="submitBtn">Sửa</button>
+        <button type="button" id="clearBtn">Xóa</button>
+    </form>
+    <ul id="productList"></ul>
+    
+    <script src="./BT09.js"></script>
+</body>
+</html>
